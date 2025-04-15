@@ -6,7 +6,9 @@ export const TitleMain = (props) => {
         deimian } = props
 
     return (
-        <h1 className={style}>{title} {deimian}</h1>
+        <>
+            <h1 className={style}>{title} {deimian}</h1>
+        </>
     )
 }
 
